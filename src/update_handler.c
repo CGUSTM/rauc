@@ -1703,6 +1703,7 @@ typedef struct {
 RaucUpdatePair updatepairs[] = {
 	{"*.ext4.caibx", "ext4", img_to_fs_handler},
 	{"*.ext4.caibx", "raw", img_to_raw_handler},
+	{"*.stm32", "raw", img_to_raw_handler},
 	{"*.vfat.caibx", "raw", img_to_raw_handler},
 	{"*.ubifs.caibx", "ubivol", img_to_ubivol_handler},
 	{"*.ubifs.caibx", "ubifs", img_to_ubifs_handler},
